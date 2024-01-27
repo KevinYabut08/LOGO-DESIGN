@@ -1,0 +1,21 @@
+body {
+  text-align: center;
+}
+
+.color {
+  fill: cadetblue;
+}
+
+.path {
+  stroke: #ed77d9;
+  fill: transparent;
+  stroke-dasharray: 500;
+  stroke-dashoffset: -500;
+  animation: animate 5s forwards infinite;
+}
+
+@keyframes animate {
+  100% {
+    stroke-dashoffset: 500;
+  }
+}
